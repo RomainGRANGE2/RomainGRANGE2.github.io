@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10% !important;
+    border-bottom: 1px solid $black;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    .header__head__title {
+        font-size: 35px;
+        transition: all 0.3s ease-in-out 0s;
+    }
+}
+
+.header__head__ul {
+    display: flex;
+    list-style-type: none;
+    li {
+        margin: 0 20px;
+        a {
+            font-size: 20px;
+            text-decoration: none;
+            padding: 20px;
+            transition: all 0.3s ease-in-out 0s;
+            &:hover {
+                color: #6CB0F2;
+            }
+        }
+    }
+}
+
+.x {
+    height: 2000px;
+}
+
+.-curent__color {
+    color: $black;
+}
+
+.scroll__header {
+    background-color: $black;
+}
+
+.scroll__svg {
+    color: $white;
+    &:hover {
+        color: #6CB0F2!important;
+    }
+}
+
+.scroll__text {
+    color: $white;
+    &:hover {
+        color: #6CB0F2;
+    }
+}
+
+.header__head__title {
+    &:hover {
+        color: #6CB0F2!important;
+    }
+}
+
+.scroll__title {
+    color: $white;
+}
+
+.header__buttonTop {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.header__presentation {
+    padding: 101px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    .header__presentation__title {
+        font-size: 50px;
+        text-align: center;
+        font-family: 'Josefin Sans', sans-serif;
+        // overflow: hidden;
+        // white-space: nowrap;
+        // position: relative;
+        // animation: typing 10s steps(132);
+        &::after {
+            // content: "";
+            // position: absolute;
+            // display: block;
+            // height: 100%;
+            // width: 1px;
+            // background-color: black;
+            // right: 0;
+            // top: 0;
+            // animation: cursor 1s infinite;
+        }
+        span {
+            color: #6CB0F2;
+            .header__presentation__title__gras {
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+.header__competences {
+    // display: flex;
+    // justify-content: flex-start;
+    .header__competences__title {
+        font-size: 40px;
+        // overflow: hidden;
+        // white-space: nowrap;
+        // position: relative;
+        // animation: typing 10s steps(100);
+        color: $black;
+    }
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+    ;
+    to {
+        width: 100%;
+    }
+}

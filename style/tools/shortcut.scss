@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Arvo&family=Kanit&display=swap');
+
+$black: #181818;
+$white: #eff0f1;
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  margin: 0 30px 0 30px;
+  padding: 0;
+}
+
+.container-large{
+  margin: 0;
+  padding: 0;
+}
+
+.font{
+  font-family: 'Kanit', sans-serif;
+}

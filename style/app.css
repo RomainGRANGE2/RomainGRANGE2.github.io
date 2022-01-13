@@ -1,0 +1,200 @@
+/* 
+
+  How to use:
+
+  container :
+  @include container();
+
+  media query :
+  @include breakpoint(laptop) {
+    background: #79b8a3;
+  }
+
+  row :
+  @include row(
+    $mobile: 100% | 12,
+    $phablet: 50% | 6,
+    $tablet: 33.33% | 4,
+    $laptop: 25% | 3,
+    $desktop: 12.5% | 2,
+    $desktopXL: 8.33% | 1,
+  );
+
+  gutter :
+  @include gutter(
+    $mobile: 10px | 1%,
+    $phablet: 20px | 2%,
+    $tablet: 30px | 3%,
+    $laptop: 40px | 4%,
+    $desktop: 50px | 5%,
+    $desktopXL: 60px | 6%,
+  );
+  @include gutterVertical(
+    $mobile: 10px,
+    $phablet: 20px,
+    $tablet: 30px,
+    $laptop: 40px,
+    $desktop: 50px,
+    $desktopXL: 60px,
+  );
+
+  column :
+  @include col(
+    $mobile: 100% | 12,
+    $phablet: 50% | 6,
+    $tablet: 33.33% | 4,
+    $laptop: 25% | 3,
+    $desktopXL: 12.5% | 2,
+    $desktop: 8.33% | 1,
+  )
+
+  offset :
+  @include offset(
+    $mobile: 100% | 12,
+    $phablet: 50% | 6,
+    $tablet: 33.33% | 4,
+    $laptop: 25% | 3,
+    $desktopXL: 12.5% | 2,
+    $desktop: 8.33% | 1,
+  )
+
+
+  column with fixed width :
+  @include row(nowrap);
+
+  .children:nth-child(1) {
+     @include col(150px);
+  } 
+
+ */
+/* breakpoints */
+/* container */
+/* grid */
+@import url("https://fonts.googleapis.com/css2?family=Arimo&family=Arvo&family=Kanit&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 30px 0 30px;
+  padding: 0;
+}
+
+.container-large {
+  margin: 0;
+  padding: 0;
+}
+
+.font {
+  font-family: "Kanit", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10% !important;
+  border-bottom: 1px solid #181818;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+}
+header .header__head__title {
+  font-size: 35px;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.header__head__ul {
+  display: flex;
+  list-style-type: none;
+}
+.header__head__ul li {
+  margin: 0 20px;
+}
+.header__head__ul li a {
+  font-size: 20px;
+  text-decoration: none;
+  padding: 20px;
+  transition: all 0.3s ease-in-out 0s;
+}
+.header__head__ul li a:hover {
+  color: #6CB0F2;
+}
+
+.x {
+  height: 2000px;
+}
+
+.-curent__color {
+  color: #181818;
+}
+
+.scroll__header {
+  background-color: #181818;
+}
+
+.scroll__svg {
+  color: #eff0f1;
+}
+.scroll__svg:hover {
+  color: #6CB0F2 !important;
+}
+
+.scroll__text {
+  color: #eff0f1;
+}
+.scroll__text:hover {
+  color: #6CB0F2;
+}
+
+.header__head__title:hover {
+  color: #6CB0F2 !important;
+}
+
+.scroll__title {
+  color: #eff0f1;
+}
+
+.header__buttonTop {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.header__presentation {
+  padding: 101px 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.header__presentation .header__presentation__title {
+  font-size: 50px;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+}
+.header__presentation .header__presentation__title span {
+  color: #6CB0F2;
+}
+.header__presentation .header__presentation__title span .header__presentation__title__gras {
+  font-weight: bold;
+}
+
+.header__competences .header__competences__title {
+  font-size: 40px;
+  color: #181818;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=app.css.map */
