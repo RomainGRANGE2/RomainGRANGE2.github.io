@@ -1,16 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase&display=swap');
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Cormorant Unicase';
 }
 
-body{
+body section{
     max-width: 1060px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
     column-gap: 50px;
-    flex-direction: column;
+    flex-wrap: wrap;
     row-gap: 50px;
     text-align: center;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    transition: 0.3s ease-in-out;
+    border-radius: 20px;
+}
+
+.content:hover{
+    filter: sepia(0%);
+    box-shadow: 5px 3px 20px black;
+}
+
+.content img{
+    width: 300px;
+    height: auto;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    filter: grayscale(75%) blur(4px);
+}
+
+.content img:hover{
+    filter: sepia(0);
+}
+
+.content h3{
+    padding: 10px;
 }
