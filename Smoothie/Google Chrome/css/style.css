@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1060px;
+}
+
+header{
+    background-image: linear-gradient(200deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("../img/detoxcuresmoothie.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+header h1{
+    text-align: center;
+    padding: 150px 0;
+    font-family: "Playfair Display";
+    letter-spacing: 3px;
+}
+
+#top-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+#top-header img {
+    width: 50px;
+    height: auto;
+}
+
+#menu-header a:nth-child(2){
+    margin: 0 20px;
+}
+
+#devise{
+    display: flex;
+    margin-top : 30px;
+    margin-bottom: 30px;
+    align-content: center;
+    justify-content: center;
+}
+
+#devise img{
+    max-width: 200px;
+    aspect-ratio: 1 / 1;
+}
+
+#devise article{
+    margin-left: 20px;
+}
+
+#devise article h2{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#fabrication{
+    background: linear-gradient(#FEB4C3,#F59E28);
+    text-align: center;
+    padding: 50px 100px;
+    color: white;
+}
+
+#fabrication h2{
+    text-transform: uppercase;
+}
+
+#concept{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 30px;
+}
+
+#title_concept{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+footer{
+    background-color: #F59E28;
+    text-align: center;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+    padding: 10px 0;
+}
+
+@media screen and (max-width: 991px) {
+
+    #top-header img{
+        width: 75px;
+    }
+
+    #devise{
+        display: block;
+        text-align: center;
+    }
+
+    #devise img{
+        margin-top: 50px;
+    }
+
+    #fabrication{
+        padding: 20px;
+    }
+
+    #fabrication article{
+        margin: 40px 0;
+    }
+
+    #concept{
+        display: block;
+    }
+}

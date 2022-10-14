@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Work+Sans&display=swap');
+
+*{
+    scroll-behavior : smooth;
+}
+
+body{
+    font-family: "Work Sans", sans-serif;
+    margin: 0;
+    line-height: 160%;
+}
+h1,
+h2{
+    font-family: "Amatic SC",cursive;
+}
+
+header{
+    background-image: url(img/pyramides.jpeg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 9% 20%; 
+    min-height: 50vh;
+}
+
+header h1{
+    font-size: 80px;
+    margin: 0;
+    line-height: normal;
+}
+
+header a{
+    color: inherit;
+}
+
+#niagara, #grece{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#niagara img{
+    width: 30%;
+    margin-right: 10%;
+}
+
+article{
+    width: 60%;
+}
+
+article h2{
+    font-family: "Amatic SC";
+}
+
+#grece img{
+    width: 30%;
+    margin-left: 10%;
+}
+
+#grece article{
+    margin-left: 20px;
+}
+
+#grece article p {
+    margin: 30px 0;
+}
+
+#formule{
+    display: flex;
+    text-align: center;
+}
+
+#formule article {
+    padding: 40px;
+    margin: 10px;
+    border: 1px solid darksalmon;
+    width: 30%;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.formule{
+    text-align: center;
+}
+
+#formule article p {
+    border-top: 1px solid black;
+    padding-top: 20px;
+}
+
+span:first-child{
+    color: darksalmon;
+    font-size: 30px;
+}
+
+article a{
+    padding: 10px;
+    color: darksalmon;
+    border: 1px solid darksalmon;
+    background-color: #fff;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+article a:hover{
+    background-color: darksalmon;
+    color: white;
+}
