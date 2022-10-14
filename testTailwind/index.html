@@ -1,0 +1,118 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@700&family=Mandali&family=Raleway:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="output.css">
+    <title>Yoga en Tailwind</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="yogaRessources/img/mat@2x.png">
+</head>
+<section class="mx-2 my-4 font-raleway lg:max-w-5xl lg:mx-auto md:mx-4 md:my-6">
+    <header class="bg-[url('yogaRessources/img/yogamat.jpg')] bg-cover bg-center text-white text-center pb-20">
+        <nav class="flex justify-between items-center p-3">
+            <img class="w-10 md:w-auto h-auto" src="yogaRessources/img/logo.png" alt="logo">
+            <div>
+                <a href="#">Concept</a>
+                <a class="mx-4" href="#">Cours</a>
+                <a href="#">Contact</a>
+            </div>
+        </nav>
+        <h1 class="text-5xl font-mandali tracking-wider mb-3">YOGASALOON</h1>
+        <p>Votre salon de yoga détente et apéro rigolo</p>
+        <button class="bg-white text-black p-2 rounded-full shadow-lg">Découvrir</button>
+    </header>
+
+    <section>
+        <h2 class="text-mainblue font-mandali text-2xl my-3">Le concept YOGASALOON</h2>
+        <div class="h-10 w-1 border-solid border-mainblue border-2 rounded-full"></div>
+        <section class="text-center mx-12 md:mx-2 lg:mx-0">
+            <article
+                class="flex flex-wrap justify-center items-center md:flex-nowrap md:text-left lg:flex-row-reverse gap-12">
+                <img class="rounded-full bg-white p-3 drop-shadow-xl w-12 h-auto" src="yogaRessources/img/mat@2x.png"
+                    alt="img">
+                <section>
+                    <h3 class="font-bold my-4">Profitez d'une séance de yoga</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore soluta vero natus. Quasi,
+                        quisquam repudiandae laudantium, dolores labore inventore sequi, facere error molestias culpa
+                        accusantium?</p>
+                </section>
+            </article>
+            <article class="flex flex-wrap justify-center items-center my-6 md:flex-nowrap md:text-left gap-12">
+                <img class="rounded-full bg-white p-3 drop-shadow-xl w-12 h-auto" src="yogaRessources/img/drink@2x.png"
+                    alt="img">
+                <section>
+                    <h3 class="font-bold my-4">Profitez d'une séance de yoga</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore soluta vero natus. Quasi,
+                        quisquam repudiandae laudantium, dolores labore inventore sequi, facere error molestias culpa
+                        accusantium?</p>
+                </section>
+            </article>
+            <article
+                class="flex flex-wrap justify-center items-center md:flex-nowrap md:text-left lg:flex-row-reverse gap-12">
+                <img class="rounded-full bg-white p-3 drop-shadow-xl w-12 h-auto"
+                    src="yogaRessources/img/drink-list@2x.png" alt="img">
+                <section>
+                    <h3 class="font-bold my-4">Profitez d'une séance de yoga</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore soluta vero natus. Quasi,
+                        quisquam repudiandae laudantium, dolores labore inventore sequi, facere error molestias culpa
+                        accusantium?
+                    </p>
+                </section>
+            </article>
+        </section>
+    </section>
+
+    <section class="my-12">
+        <h2 class="text-mainblue font-mandali text-2xl">Les cours YOGASALOON</h2>
+        <div class="h-10 w-1 border-solid border-mainblue border-2 rounded-full my-3"></div>
+        <article class="flex justify-center items-start gap-6 md:items-center">
+            <img class="w-60 h-auto" src="yogaRessources/img/yoga.jpg" alt="img">
+            <section>
+                <h3 class="font-bold mb-3">Du machin en veux tu en voilà</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat blanditiis nulla illum laborum
+                    animi
+                    quis voluptatum fugit vero, sed quos consectetur quas, maxime eveniet qui earum, iste doloremque
+                    repellendus dolorum. Inventore repellat explicabo, delectus totam dolor fuga eum ut possimus quia
+                    illo dolore nesciunt! A ducimus corrupti earum minus laborum?
+                </p>
+            </section>
+        </article>
+    </section>
+
+    <section>
+        <h2 class="text-mainblue font-mandali text-2xl">Contact - Suivre un cours</h2>
+        <div class="h-10 w-1 border-solid border-mainblue border-2 rounded-full my-3"></div>
+        <form class="mb-6" action="#">
+            <div class="flex items-center gap-10 mb-4">
+                <p>Être rappelé :</p>
+                <section class="grid grid-cols-3 gap-8">
+                    <button class="bg-white text-gray-800 p-2 rounded-full shadow-lg px-4">Aujourd'hui</button>
+                    <button class="bg-white text-gray-800 p-2 rounded-full shadow-lg px-4">Demain</button>
+                    <button class="bg-white text-gray-800 p-2 rounded-full shadow-lg px-4">Plus tard</button>
+                </section>
+            </div>
+            <input class="w-96 shadow-lg rounded-full pl-3 py-1 mb-5" type="text" placeholder="Nom prénom">
+            <br>
+            <input class="w-96 shadow-lg rounded-full pl-3 py-1 mb-5" type="text" placeholder="Email">
+            <div class="flex items-center gap-2 mb-4">
+                <p>Vous êtes intéressé par :</p>
+                <select class="border">
+                    <option>Yoga machin</option>
+                    <option>YogaSALOON</option>
+                </select>
+            </div>
+            <button class="bg-white text-black p-2 rounded-full shadow-lg">Envoyer</button>
+        </form>
+    </section>
+
+    <footer class="bg-mainblue text-white text-center">
+        <p class="py-6">2022 © RG</p>
+    </footer>
+</section>
+
+</html>
