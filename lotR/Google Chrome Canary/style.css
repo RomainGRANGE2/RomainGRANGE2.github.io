@@ -95,7 +95,7 @@ li{
 li::before {
     content: "0" counter(inst);
 
-    color: rgba(128, 128, 128, 0.235);
+    color: rgba(79, 17, 34,0.25);
 
     font-size: 1em;
     font-family: 'Cormorant Unicase';
