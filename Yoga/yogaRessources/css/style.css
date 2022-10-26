@@ -14,6 +14,16 @@ h1,h2{
     font-family: 'Mandali';
 }
 
+h2::after{
+    content: "";
+    display: block;
+    height: 40px;
+    width: 2px;
+    background-color: #6E8E9B;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
 header{
     background: url(../img/yogamat.jpg);
     background-size: cover;
@@ -63,15 +73,6 @@ nav{
 
 #concept h3{
     font-weight: bold;
-}
-
-.trait-bleu{
-    height: 40px;
-    width: 1px;
-    font-family: 'Mandali';
-    border-left: solid 2px #6E8E9B;
-    border-radius: 50px;
-    margin-bottom: 30px;
 }
 
 #concept article{
